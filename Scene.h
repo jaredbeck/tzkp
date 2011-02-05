@@ -55,6 +55,8 @@
 	
 	Texture *texture;
 	GLuint textureName;
+  
+  Tetrahedron *tetra;
 	
     float animationPhase;
     float rollAngle;

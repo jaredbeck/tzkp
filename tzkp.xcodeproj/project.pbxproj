@@ -12,6 +12,7 @@
 		7FFFB3B612FDC1C400A3B3BB /* Cube.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFFB3B512FDC1C400A3B3BB /* Cube.m */; };
 		7FFFB3B912FDC20C00A3B3BB /* Hexahedron.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFFB3B812FDC20C00A3B3BB /* Hexahedron.m */; };
 		7FFFB41412FDC8F900A3B3BB /* Tetrahedron.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFFB41312FDC8F900A3B3BB /* Tetrahedron.m */; };
+		7FFFB45112FDD67200A3B3BB /* Coord.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFFB45012FDD67200A3B3BB /* Coord.m */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
@@ -41,6 +42,8 @@
 		7FFFB3B812FDC20C00A3B3BB /* Hexahedron.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hexahedron.m; sourceTree = "<group>"; };
 		7FFFB41212FDC8F900A3B3BB /* Tetrahedron.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tetrahedron.h; sourceTree = "<group>"; };
 		7FFFB41312FDC8F900A3B3BB /* Tetrahedron.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tetrahedron.m; sourceTree = "<group>"; };
+		7FFFB44F12FDD67200A3B3BB /* Coord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Coord.h; sourceTree = "<group>"; };
+		7FFFB45012FDD67200A3B3BB /* Coord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Coord.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* tzkp-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "tzkp-Info.plist"; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* tzkp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tzkp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF01F34B113DE4FD001D73F6 /* Texture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Texture.h; sourceTree = "<group>"; };
@@ -73,6 +76,8 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				7FFFB44F12FDD67200A3B3BB /* Coord.h */,
+				7FFFB45012FDD67200A3B3BB /* Coord.m */,
 				7FFFB41212FDC8F900A3B3BB /* Tetrahedron.h */,
 				7FFFB41312FDC8F900A3B3BB /* Tetrahedron.m */,
 				7FFFB3B412FDC1C400A3B3BB /* Cube.h */,
@@ -234,6 +239,7 @@
 				7FFFB3B612FDC1C400A3B3BB /* Cube.m in Sources */,
 				7FFFB3B912FDC20C00A3B3BB /* Hexahedron.m in Sources */,
 				7FFFB41412FDC8F900A3B3BB /* Tetrahedron.m in Sources */,
+				7FFFB45112FDD67200A3B3BB /* Coord.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

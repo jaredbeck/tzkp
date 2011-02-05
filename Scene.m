@@ -51,6 +51,7 @@
 #import "Texture.h"
 #import <OpenGL/glu.h>
 #import "Tetrahedron.h"
+#import "Coord.h"
 #import "Cube.h"
 
 static double dtor( double degrees )
@@ -69,6 +70,7 @@ static double dtor( double degrees )
         rollAngle = 0.0;
         sunAngle = 135.0;
         wireframe = NO;
+      tetra = [[Tetrahedron alloc] init];
     } 
     return self;
 }
@@ -142,15 +144,16 @@ static double dtor( double degrees )
   glPushMatrix();
 	
 	// Back the camera off a bit
-	glTranslatef(0.0, 0.0, -7.0);
+	glTranslatef(0.0, 0.0, -10.0);
 
   
   glPushMatrix();
   glRotatef(animationPhase * 360.0 * 5, 0.0, 1.0, 0.0);
-  //glTranslatef(0.0f, animationPhase * -10.0, 0.0f);
   
-  Tetrahedron *t = [[Tetrahedron alloc] init];
-  [t render];
+  // Tetrahedron
+  [tetra addGravityToVelocity];
+  [tetra addVelocityToCenter];
+  [tetra render];
   
   glPushMatrix();
   

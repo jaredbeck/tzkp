@@ -271,7 +271,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>14</integer>
+									<integer>15</integer>
 									<integer>2</integer>
 									<integer>0</integer>
 								</array>
@@ -314,7 +314,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>Scene.m</string>
+								<string>Scene.h</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -322,11 +322,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>Scene.m</string>
+										<string>Scene.h</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>7FFFB44812FDCD5400A3B3BB</string>
+										<string>7FFFB54C12FDE4C800A3B3BB</string>
 										<key>history</key>
 										<array>
 											<string>7FA063F912FD4E54003AD7A0</string>
@@ -335,17 +335,19 @@
 											<string>7FA063FE12FD4E54003AD7A0</string>
 											<string>7FA063FF12FD4E54003AD7A0</string>
 											<string>7FFFB3D512FDC41400A3B3BB</string>
-											<string>7FFFB3D612FDC41400A3B3BB</string>
 											<string>7FFFB3FB12FDC6AF00A3B3BB</string>
 											<string>7FFFB41912FDC98D00A3B3BB</string>
 											<string>7FFFB41A12FDC98D00A3B3BB</string>
-											<string>7FFFB41C12FDC98D00A3B3BB</string>
-											<string>7FFFB41D12FDC98D00A3B3BB</string>
-											<string>7FFFB43412FDCB8700A3B3BB</string>
-											<string>7FFFB43A12FDCBA500A3B3BB</string>
-											<string>7FFFB43B12FDCBA500A3B3BB</string>
-											<string>7FFFB43C12FDCBA500A3B3BB</string>
-											<string>7FFFB43D12FDCBA500A3B3BB</string>
+											<string>7FFFB46A12FDD89200A3B3BB</string>
+											<string>7FFFB46C12FDD89200A3B3BB</string>
+											<string>7FFFB4F112FDE04000A3B3BB</string>
+											<string>7FFFB4F812FDE0BF00A3B3BB</string>
+											<string>7FFFB52212FDE3BC00A3B3BB</string>
+											<string>7FFFB52812FDE42D00A3B3BB</string>
+											<string>7FFFB53112FDE44200A3B3BB</string>
+											<string>7FFFB54412FDE49300A3B3BB</string>
+											<string>7FFFB54A12FDE4C800A3B3BB</string>
+											<string>7FFFB54B12FDE4C800A3B3BB</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -543,7 +545,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>7FFFB44912FDCD5400A3B3BB</string>
 		<string>7FFFB3A912FDBE6000A3B3BB</string>
 		<string>7FFFB3AA12FDBE6000A3B3BB</string>
 		<string>1C78EAAD065D492600B07095</string>
@@ -573,7 +574,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>Cube.h</string>
+								<string>Tetrahedron.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -582,7 +583,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {802, 379}}</string>
 								<key>RubberWindowFrame</key>
-								<string>912 426 802 661 0 0 2560 1418 </string>
+								<string>1350 416 802 661 0 0 2560 1418 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -608,7 +609,7 @@
 								<key>Frame</key>
 								<string>{{0, 384}, {802, 236}}</string>
 								<key>RubberWindowFrame</key>
-								<string>912 426 802 661 0 0 2560 1418 </string>
+								<string>1350 416 802 661 0 0 2560 1418 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXBuildResultsModule</string>
@@ -640,11 +641,11 @@
 			<key>WindowContentMinSize</key>
 			<string>486 300</string>
 			<key>WindowString</key>
-			<string>912 426 802 661 0 0 2560 1418 </string>
+			<string>1350 416 802 661 0 0 2560 1418 </string>
 			<key>WindowToolGUID</key>
 			<string>7FA062C312FD2949003AD7A0</string>
 			<key>WindowToolIsVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>

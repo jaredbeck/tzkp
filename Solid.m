@@ -7,7 +7,7 @@
 //
 
 #import "Solid.h"
-
+#import "Coord.h"
 
 @implementation Solid
 
@@ -15,9 +15,35 @@
 {
     self = [super init];
     if (self) {
-		solidName = @"Untitled Solid";
+      solidName = @"Untitled Solid";
+      center = [[Coord alloc] init];
+      vx = 0.0f;
+      vy = 0.0f;
+      vz = 0.0f;
     } 
     return self;
+}
+
+- (void)render
+{	
+  @throw [NSException exceptionWithName:@"InvocationOfAbstractMethod" reason:@"Please implement in child"  userInfo:nil];
+}
+
+-(void) setCenter: (Coord*) c
+{
+  self->center = c;
+}
+
+- (void)addVelocityToCenter
+{
+  self->center->x += self->vx;
+  self->center->y += self->vy;
+  self->center->z += self->vz;
+}
+
+- (void)addGravityToVelocity
+{
+  self->vy += -0.0001; // gravity constant
 }
 
 @end

@@ -1,5 +1,5 @@
 //
-//  Tetrahedron.h
+//  Coord.h
 //  tzkp
 //
 //  Created by Jared Beck on 2/5/11.
@@ -7,13 +7,14 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import "Solid.h"
 
-@interface Tetrahedron : Solid {
 
+@interface Coord : NSObject {
+  @public GLfloat x;
+  @public GLfloat y;
+  @public GLfloat z;
 }
 
 - (id)init;
-- (void)render;
 
 @end
