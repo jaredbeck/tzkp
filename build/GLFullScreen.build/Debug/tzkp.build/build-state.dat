@@ -1,0 +1,345 @@
+Ttzkp
+v7
+r0
+t318590524.610275
+cCheck dependencies
+cProcessInfoPlistFile /Users/jared/git/GLFullScreen/build/Debug/tzkp.app/Contents/Info.plist tzkp-Info.plist
+cCopyStringsFile /Users/jared/git/GLFullScreen/build/Debug/tzkp.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCompileXIB /Users/jared/git/GLFullScreen/English.lproj/MainMenu.xib
+cCpResource build/Debug/tzkp.app/Contents/Resources/Earth.jpg Earth.jpg
+cProcessPCH /var/folders/DX/DXp95JBuHHGs1yYkk4pWDk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/tzkp_Prefix-ctzjunuxmbdhvubdzkqsyeiqskss/tzkp_Prefix.pch.gch tzkp_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GLFullScreen.build/Debug/tzkp.build/Objects-normal/x86_64/main.o /Users/jared/git/GLFullScreen/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GLFullScreen.build/Debug/tzkp.build/Objects-normal/x86_64/MainControler.o /Users/jared/git/GLFullScreen/MainControler.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GLFullScreen.build/Debug/tzkp.build/Objects-normal/x86_64/MyOpenGLView.o /Users/jared/git/GLFullScreen/MyOpenGLView.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GLFullScreen.build/Debug/tzkp.build/Objects-normal/x86_64/Scene.o /Users/jared/git/GLFullScreen/Scene.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GLFullScreen.build/Debug/tzkp.build/Objects-normal/x86_64/Texture.o /Users/jared/git/GLFullScreen/Texture.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/jared/git/GLFullScreen/build/Debug/tzkp.app/Contents/MacOS/tzkp normal x86_64
+cTouch /Users/jared/git/GLFullScreen/build/Debug/tzkp.app
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004D3E6F9200000000000000EE
+t1295937426
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenGL.framework/Headers/OpenGL.h
+c000000004BE91B5D0000000000001659
+t1273568093
+s5721
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenGL.framework/Headers/glu.h
+c000000004BE91B5D0000000000003F84
+t1273568093
+s16260
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL
+c000000004BF47010000000000000DB14
+t1274310672
+s56084
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/CVDisplayLink.h
+c000000004BE91E540000000000000025
+t1273568852
+s37
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004BF4701000000000000A2AAC
+t1274310672
+s666284
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Users/jared/git/GLFullScreen/Earth.jpg
+c000000004BB3BB060000000000022EDD
+t1270070022
+s143069
+
+N/Users/jared/git/GLFullScreen/English.lproj/InfoPlist.strings
+c000000004B994FBD00000000000000A3
+t1268338621
+s163
+
+N/Users/jared/git/GLFullScreen/English.lproj/MainMenu.xib
+c000000004D4D16B4000000000002F09D
+t1296897716
+s192669
+
+N/Users/jared/git/GLFullScreen/MainControler.m
+c000000004CF707910000000000003017
+t1291257745
+s12311
+i"MainController.h"
+i"MyOpenGLView.h"
+i"Scene.h"
+
+N/Users/jared/git/GLFullScreen/MainController.h
+c000000004CF707910000000000000C54
+t1291257745
+s3156
+i<Cocoa/Cocoa.h>
+i<OpenGL/OpenGL.h>
+
+N/Users/jared/git/GLFullScreen/MyOpenGLView.h
+c000000004CF707910000000000000C3B
+t1291257745
+s3131
+i<Cocoa/Cocoa.h>
+i<QuartzCore/CVDisplayLink.h>
+
+N/Users/jared/git/GLFullScreen/MyOpenGLView.m
+c000000004CF70791000000000000200F
+t1291257745
+s8207
+i"MyOpenGLView.h"
+i"MainController.h"
+i"Scene.h"
+
+N/Users/jared/git/GLFullScreen/Scene.h
+c000000004CF707910000000000000BDA
+t1291257745
+s3034
+i<Cocoa/Cocoa.h>
+
+N/Users/jared/git/GLFullScreen/Scene.m
+c000000004D4D165F0000000000002376
+t1296897631
+s9078
+i"Scene.h"
+i"Texture.h"
+i<OpenGL/glu.h>
+
+N/Users/jared/git/GLFullScreen/Texture.h
+c000000004CF707910000000000000A6A
+t1291257745
+s2666
+i<Cocoa/Cocoa.h>
+
+N/Users/jared/git/GLFullScreen/Texture.m
+c000000004CF7079100000000000015F5
+t1291257745
+s5621
+i"Texture.h"
+i<OpenGL/glu.h>
+
+N/Users/jared/git/GLFullScreen/build/Debug/tzkp.app
+t1296897724
+s102
+
+N/Users/jared/git/GLFullScreen/build/Debug/tzkp.app/Contents/Info.plist
+t1296897721
+s879
+
+N/Users/jared/git/GLFullScreen/build/Debug/tzkp.app/Contents/MacOS/tzkp
+t1296897724
+s45888
+
+N/Users/jared/git/GLFullScreen/build/Debug/tzkp.app/Contents/PkgInfo
+t1296897721
+s8
+
+N/Users/jared/git/GLFullScreen/build/Debug/tzkp.app/Contents/Resources/Earth.jpg
+t1296897721
+s143069
+
+N/Users/jared/git/GLFullScreen/build/Debug/tzkp.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1296897721
+s326
+
+N/Users/jared/git/GLFullScreen/build/Debug/tzkp.app/Contents/Resources/English.lproj/MainMenu.nib
+t1296897721
+s37488
+
+N/Users/jared/git/GLFullScreen/build/GLFullScreen.build/Debug/tzkp.build/Objects-normal/x86_64/MainControler.o
+t1296897724
+s34296
+
+N/Users/jared/git/GLFullScreen/build/GLFullScreen.build/Debug/tzkp.build/Objects-normal/x86_64/MyOpenGLView.o
+t1296897724
+s37636
+
+N/Users/jared/git/GLFullScreen/build/GLFullScreen.build/Debug/tzkp.build/Objects-normal/x86_64/Scene.o
+t1296897724
+s19660
+
+N/Users/jared/git/GLFullScreen/build/GLFullScreen.build/Debug/tzkp.build/Objects-normal/x86_64/Texture.o
+t1296897724
+s17004
+
+N/Users/jared/git/GLFullScreen/build/GLFullScreen.build/Debug/tzkp.build/Objects-normal/x86_64/main.o
+t1296897724
+s4968
+
+N/Users/jared/git/GLFullScreen/build/GLFullScreen.build/Debug/tzkp.build/Objects-normal/x86_64/tzkp.LinkFileList
+c000000004D4D16B9000000000000020E
+t1296897721
+s526
+
+N/Users/jared/git/GLFullScreen/main.m
+c000000004CF707910000000000000A02
+t1291257745
+s2562
+i<Cocoa/Cocoa.h>
+
+N/Users/jared/git/GLFullScreen/tzkp_Prefix.pch
+c000000004B8F0B22000000000000009B
+t1267665698
+s155
+i<Cocoa/Cocoa.h>
+
+N/var/folders/DX/DXp95JBuHHGs1yYkk4pWDk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/tzkp_Prefix-ctzjunuxmbdhvubdzkqsyeiqskss/tzkp_Prefix.pch.gch
+t1296897724
+s54265616
+
+Ntzkp-Info.plist
+c000000004CBC8D0900000000000003EC
+t1287425289
+s1004
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies318590521#318590521#0(0"0(0#1#0"8620002368#0"0#
+
+CCompileC build/GLFullScreen.build/Debug/tzkp.build/Objects-normal/x86_64/MainControler.o /Users/jared/git/GLFullScreen/MainControler.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s318590524.295107
+e318590524.489149
+r1
+xCompileC
+xbuild/GLFullScreen.build/Debug/tzkp.build/Objects-normal/x86_64/MainControler.o
+x/Users/jared/git/GLFullScreen/MainControler.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Users/jared/git/GLFullScreen/MainControler.m318590524#318590524#0(0"0(0#0#45"/Users/jared/git/GLFullScreen/MainControler.m8613411808#1365"    cd /Users/jared/git/GLFullScreen    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jared/git/GLFullScreen/build/GLFullScreen.build/Debug/tzkp.build/tzkp-generated-files.hmap -I/Users/jared/git/GLFullScreen/build/GLFullScreen.build/Debug/tzkp.build/tzkp-own-target-headers.hmap -I/Users/jared/git/GLFullScreen/build/GLFullScreen.build/Debug/tzkp.build/tzkp-all-target-headers.hmap -iquote /Users/jared/git/GLFullScreen/build/GLFullScreen.build/Debug/tzkp.build/tzkp-project-headers.hmap -F/Users/jared/git/GLFullScreen/build/Debug -I/Users/jared/git/GLFullScreen/build/Debug/include -I/Users/jared/git/GLFullScreen/build/GLFullScreen.build/Debug/tzkp.build/DerivedSources/x86_64 -I/Users/jared/git/GLFullScreen/build/GLFullScreen.build/Debug/tzkp.build/DerivedSources -include /var/folders/DX/DXp95JBuHHGs1yYkk4pWDk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/tzkp_Prefix-ctzjunuxmbdhvubdzkqsyeiqskss/tzkp_Prefix.pch -c /Users/jared/git/GLFullScreen/MainControler.m -o /Users/jared/git/GLFullScreen/build/GLFullScreen.build/Debug/tzkp.build/Objects-normal/x86_64/MainControler.o0#
+
+CCompileC build/GLFullScreen.build/Debug/tzkp.build/Objects-normal/x86_64/MyOpenGLView.o /Users/jared/git/GLFullScreen/MyOpenGLView.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s318590524.295787
+e318590524.484281
+r1
+xCompileC
+xbuild/GLFullScreen.build/Debug/tzkp.build/Objects-normal/x86_64/MyOpenGLView.o
+x/Users/jared/git/GLFullScreen/MyOpenGLView.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@52"Compile /Users/jared/git/GLFullScreen/MyOpenGLView.m318590524#318590524#0(0"0(0#0#44"/Users/jared/git/GLFullScreen/MyOpenGLView.m8620166240#1363"    cd /Users/jared/git/GLFullScreen    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jared/git/GLFullScreen/build/GLFullScreen.build/Debug/tzkp.build/tzkp-generated-files.hmap -I/Users/jared/git/GLFullScreen/build/GLFullScreen.build/Debug/tzkp.build/tzkp-own-target-headers.hmap -I/Users/jared/git/GLFullScreen/build/GLFullScreen.build/Debug/tzkp.build/tzkp-all-target-headers.hmap -iquote /Users/jared/git/GLFullScreen/build/GLFullScreen.build/Debug/tzkp.build/tzkp-project-headers.hmap -F/Users/jared/git/GLFullScreen/build/Debug -I/Users/jared/git/GLFullScreen/build/Debug/include -I/Users/jared/git/GLFullScreen/build/GLFullScreen.build/Debug/tzkp.build/DerivedSources/x86_64 -I/Users/jared/git/GLFullScreen/build/GLFullScreen.build/Debug/tzkp.build/DerivedSources -include /var/folders/DX/DXp95JBuHHGs1yYkk4pWDk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/tzkp_Prefix-ctzjunuxmbdhvubdzkqsyeiqskss/tzkp_Prefix.pch -c /Users/jared/git/GLFullScreen/MyOpenGLView.m -o /Users/jared/git/GLFullScreen/build/GLFullScreen.build/Debug/tzkp.build/Objects-normal/x86_64/MyOpenGLView.o0#
+
+CCompileC build/GLFullScreen.build/Debug/tzkp.build/Objects-normal/x86_64/Scene.o /Users/jared/git/GLFullScreen/Scene.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s318590524.296697
+e318590524.470725
+r1
+xCompileC
+xbuild/GLFullScreen.build/Debug/tzkp.build/Objects-normal/x86_64/Scene.o
+x/Users/jared/git/GLFullScreen/Scene.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/jared/git/GLFullScreen/Scene.m: In function '-[Scene render]':
+o/Users/jared/git/GLFullScreen/Scene.m:140: warning: unused variable 'quadric'
+o/Users/jared/git/GLFullScreen/Scene.m:139: warning: unused variable 'materialDiffuse'
+o/Users/jared/git/GLFullScreen/Scene.m:138: warning: unused variable 'materialAmbient'
+o/Users/jared/git/GLFullScreen/Scene.m:137: warning: unused variable 'radius'
+o/Users/jared/git/GLFullScreen/Scene.m:136: warning: unused variable 'lightDirection'
+lSLF07#2@45"Compile /Users/jared/git/GLFullScreen/Scene.m318590524#318590524#0(482"/Users/jared/git/GLFullScreen/Scene.m: In function '-[Scene render]':/Users/jared/git/GLFullScreen/Scene.m:140: warning: unused variable 'quadric'/Users/jared/git/GLFullScreen/Scene.m:139: warning: unused variable 'materialDiffuse'/Users/jared/git/GLFullScreen/Scene.m:138: warning: unused variable 'materialAmbient'/Users/jared/git/GLFullScreen/Scene.m:137: warning: unused variable 'radius'/Users/jared/git/GLFullScreen/Scene.m:136: warning: unused variable 'lightDirection'5(22@25"Unused variable 'quadric'318590524#70#78#0(6@37"/Users/jared/git/GLFullScreen/Scene.m318590431#140#0#140#0#19"unused variable '*'0(22@33"Unused variable 'materialDiffuse'318590524#148#86#0(6@37"/Users/jared/git/GLFullScreen/Scene.m318590431#139#0#139#0#19"unused variable '*'0(22@33"Unused variable 'materialAmbient'318590524#234#86#0(6@37"/Users/jared/git/GLFullScreen/Scene.m318590431#138#0#138#0#19"unused variable '*'0(22@24"Unused variable 'radius'318590524#320#77#0(6@37"/Users/jared/git/GLFullScreen/Scene.m318590431#137#0#137#0#19"unused variable '*'0(22@32"Unused variable 'lightDirection'318590524#397#85#0(6@37"/Users/jared/git/GLFullScreen/Scene.m318590431#136#0#136#0#19"unused variable '*'0(0#0#37"/Users/jared/git/GLFullScreen/Scene.m8620012288#1349"    cd /Users/jared/git/GLFullScreen    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jared/git/GLFullScreen/build/GLFullScreen.build/Debug/tzkp.build/tzkp-generated-files.hmap -I/Users/jared/git/GLFullScreen/build/GLFullScreen.build/Debug/tzkp.build/tzkp-own-target-headers.hmap -I/Users/jared/git/GLFullScreen/build/GLFullScreen.build/Debug/tzkp.build/tzkp-all-target-headers.hmap -iquote /Users/jared/git/GLFullScreen/build/GLFullScreen.build/Debug/tzkp.build/tzkp-project-headers.hmap -F/Users/jared/git/GLFullScreen/build/Debug -I/Users/jared/git/GLFullScreen/build/Debug/include -I/Users/jared/git/GLFullScreen/build/GLFullScreen.build/Debug/tzkp.build/DerivedSources/x86_64 -I/Users/jared/git/GLFullScreen/build/GLFullScreen.build/Debug/tzkp.build/DerivedSources -include /var/folders/DX/DXp95JBuHHGs1yYkk4pWDk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/tzkp_Prefix-ctzjunuxmbdhvubdzkqsyeiqskss/tzkp_Prefix.pch -c /Users/jared/git/GLFullScreen/Scene.m -o /Users/jared/git/GLFullScreen/build/GLFullScreen.build/Debug/tzkp.build/Objects-normal/x86_64/Scene.o0#
+
+CCompileC build/GLFullScreen.build/Debug/tzkp.build/Objects-normal/x86_64/Texture.o /Users/jared/git/GLFullScreen/Texture.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s318590524.446855
+e318590524.570912
+r1
+xCompileC
+xbuild/GLFullScreen.build/Debug/tzkp.build/Objects-normal/x86_64/Texture.o
+x/Users/jared/git/GLFullScreen/Texture.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@47"Compile /Users/jared/git/GLFullScreen/Texture.m318590524#318590524#0(0"0(0#0#39"/Users/jared/git/GLFullScreen/Texture.m8618305152#1353"    cd /Users/jared/git/GLFullScreen    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jared/git/GLFullScreen/build/GLFullScreen.build/Debug/tzkp.build/tzkp-generated-files.hmap -I/Users/jared/git/GLFullScreen/build/GLFullScreen.build/Debug/tzkp.build/tzkp-own-target-headers.hmap -I/Users/jared/git/GLFullScreen/build/GLFullScreen.build/Debug/tzkp.build/tzkp-all-target-headers.hmap -iquote /Users/jared/git/GLFullScreen/build/GLFullScreen.build/Debug/tzkp.build/tzkp-project-headers.hmap -F/Users/jared/git/GLFullScreen/build/Debug -I/Users/jared/git/GLFullScreen/build/Debug/include -I/Users/jared/git/GLFullScreen/build/GLFullScreen.build/Debug/tzkp.build/DerivedSources/x86_64 -I/Users/jared/git/GLFullScreen/build/GLFullScreen.build/Debug/tzkp.build/DerivedSources -include /var/folders/DX/DXp95JBuHHGs1yYkk4pWDk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/tzkp_Prefix-ctzjunuxmbdhvubdzkqsyeiqskss/tzkp_Prefix.pch -c /Users/jared/git/GLFullScreen/Texture.m -o /Users/jared/git/GLFullScreen/build/GLFullScreen.build/Debug/tzkp.build/Objects-normal/x86_64/Texture.o0#
+
+CCompileC build/GLFullScreen.build/Debug/tzkp.build/Objects-normal/x86_64/main.o /Users/jared/git/GLFullScreen/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s318590524.294307
+e318590524.446723
+r1
+xCompileC
+xbuild/GLFullScreen.build/Debug/tzkp.build/Objects-normal/x86_64/main.o
+x/Users/jared/git/GLFullScreen/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@44"Compile /Users/jared/git/GLFullScreen/main.m318590524#318590524#0(0"0(0#0#36"/Users/jared/git/GLFullScreen/main.m8619856640#1347"    cd /Users/jared/git/GLFullScreen    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jared/git/GLFullScreen/build/GLFullScreen.build/Debug/tzkp.build/tzkp-generated-files.hmap -I/Users/jared/git/GLFullScreen/build/GLFullScreen.build/Debug/tzkp.build/tzkp-own-target-headers.hmap -I/Users/jared/git/GLFullScreen/build/GLFullScreen.build/Debug/tzkp.build/tzkp-all-target-headers.hmap -iquote /Users/jared/git/GLFullScreen/build/GLFullScreen.build/Debug/tzkp.build/tzkp-project-headers.hmap -F/Users/jared/git/GLFullScreen/build/Debug -I/Users/jared/git/GLFullScreen/build/Debug/include -I/Users/jared/git/GLFullScreen/build/GLFullScreen.build/Debug/tzkp.build/DerivedSources/x86_64 -I/Users/jared/git/GLFullScreen/build/GLFullScreen.build/Debug/tzkp.build/DerivedSources -include /var/folders/DX/DXp95JBuHHGs1yYkk4pWDk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/tzkp_Prefix-ctzjunuxmbdhvubdzkqsyeiqskss/tzkp_Prefix.pch -c /Users/jared/git/GLFullScreen/main.m -o /Users/jared/git/GLFullScreen/build/GLFullScreen.build/Debug/tzkp.build/Objects-normal/x86_64/main.o0#
+
+CCompileXIB /Users/jared/git/GLFullScreen/English.lproj/MainMenu.xib
+s318590521.398928
+e318590521.669704
+r1
+xCompileXIB
+x/Users/jared/git/GLFullScreen/English.lproj/MainMenu.xib
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib318590521#318590521#0(0"0(0#0#56"/Users/jared/git/GLFullScreen/English.lproj/MainMenu.xib8614478272#334"    cd /Users/jared/git/GLFullScreen    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jared/git/GLFullScreen/build/Debug/tzkp.app/Contents/Resources/English.lproj/MainMenu.nib /Users/jared/git/GLFullScreen/English.lproj/MainMenu.xib --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+
+CCopyStringsFile /Users/jared/git/GLFullScreen/build/Debug/tzkp.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s318590521.398253
+e318590521.494920
+r1
+xCopyStringsFile
+x/Users/jared/git/GLFullScreen/build/Debug/tzkp.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings318590521#318590521#0(0"0(0#0#61"/Users/jared/git/GLFullScreen/English.lproj/InfoPlist.strings8615307296#344"    cd /Users/jared/git/GLFullScreen    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/jared/git/GLFullScreen/build/Debug/tzkp.app/Contents/Resources/English.lproj0#
+
+CCpResource build/Debug/tzkp.app/Contents/Resources/Earth.jpg Earth.jpg
+s318590521.399401
+e318590521.482621
+r1
+xCpResource
+xbuild/Debug/tzkp.app/Contents/Resources/Earth.jpg
+xEarth.jpg
+lSLF07#2@14"Copy Earth.jpg318590521#318590521#0(0"0(0#0#39"/Users/jared/git/GLFullScreen/Earth.jpg8614007136#295"    cd /Users/jared/git/GLFullScreen    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/jared/git/GLFullScreen/Earth.jpg /Users/jared/git/GLFullScreen/build/Debug/tzkp.app/Contents/Resources0#
+
+CLd /Users/jared/git/GLFullScreen/build/Debug/tzkp.app/Contents/MacOS/tzkp normal x86_64
+s318590524.571063
+e318590524.607807
+r1
+xLd
+x/Users/jared/git/GLFullScreen/build/Debug/tzkp.app/Contents/MacOS/tzkp
+xnormal
+xx86_64
+lSLF07#2@75"Link /Users/jared/git/GLFullScreen/build/Debug/tzkp.app/Contents/MacOS/tzkp318590524#318590524#0(0"0(0#0#0"8614200832#530"    cd /Users/jared/git/GLFullScreen    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/jared/git/GLFullScreen/build/Debug -F/Users/jared/git/GLFullScreen/build/Debug -filelist /Users/jared/git/GLFullScreen/build/GLFullScreen.build/Debug/tzkp.build/Objects-normal/x86_64/tzkp.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework OpenGL -framework QuartzCore -o /Users/jared/git/GLFullScreen/build/Debug/tzkp.app/Contents/MacOS/tzkp0#
+
+CProcessInfoPlistFile /Users/jared/git/GLFullScreen/build/Debug/tzkp.app/Contents/Info.plist tzkp-Info.plist
+s318590521.395276
+e318590521.398162
+r1
+xProcessInfoPlistFile
+x/Users/jared/git/GLFullScreen/build/Debug/tzkp.app/Contents/Info.plist
+xtzkp-Info.plist
+lSLF07#2@23"Process tzkp-Info.plist318590521#318590521#0(0"0(0#0#45"/Users/jared/git/GLFullScreen/tzkp-Info.plist8615913504#274"    cd /Users/jared/git/GLFullScreen    builtin-infoPlistUtility tzkp-Info.plist -genpkginfo /Users/jared/git/GLFullScreen/build/Debug/tzkp.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/jared/git/GLFullScreen/build/Debug/tzkp.app/Contents/Info.plist0#
+
+CProcessPCH /var/folders/DX/DXp95JBuHHGs1yYkk4pWDk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/tzkp_Prefix-ctzjunuxmbdhvubdzkqsyeiqskss/tzkp_Prefix.pch.gch tzkp_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s318590521.669867
+e318590524.294124
+r1
+xProcessPCH
+x/var/folders/DX/DXp95JBuHHGs1yYkk4pWDk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/tzkp_Prefix-ctzjunuxmbdhvubdzkqsyeiqskss/tzkp_Prefix.pch.gch
+xtzkp_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@26"Precompile tzkp_Prefix.pch318590521#318590524#0(0"0(0#0#45"/Users/jared/git/GLFullScreen/tzkp_Prefix.pch8620084352#1257"    cd /Users/jared/git/GLFullScreen    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jared/git/GLFullScreen/build/GLFullScreen.build/Debug/tzkp.build/tzkp-generated-files.hmap -I/Users/jared/git/GLFullScreen/build/GLFullScreen.build/Debug/tzkp.build/tzkp-own-target-headers.hmap -I/Users/jared/git/GLFullScreen/build/GLFullScreen.build/Debug/tzkp.build/tzkp-all-target-headers.hmap -iquote /Users/jared/git/GLFullScreen/build/GLFullScreen.build/Debug/tzkp.build/tzkp-project-headers.hmap -F/Users/jared/git/GLFullScreen/build/Debug -I/Users/jared/git/GLFullScreen/build/Debug/include -I/Users/jared/git/GLFullScreen/build/GLFullScreen.build/Debug/tzkp.build/DerivedSources/x86_64 -I/Users/jared/git/GLFullScreen/build/GLFullScreen.build/Debug/tzkp.build/DerivedSources -c /Users/jared/git/GLFullScreen/tzkp_Prefix.pch -o /var/folders/DX/DXp95JBuHHGs1yYkk4pWDk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/tzkp_Prefix-ctzjunuxmbdhvubdzkqsyeiqskss/tzkp_Prefix.pch.gch0#
+
+CTouch /Users/jared/git/GLFullScreen/build/Debug/tzkp.app
+s318590524.607900
+e318590524.610246
+r1
+xTouch
+x/Users/jared/git/GLFullScreen/build/Debug/tzkp.app
+lSLF07#2@56"Touch /Users/jared/git/GLFullScreen/build/Debug/tzkp.app318590524#318590524#0(0"0(0#0#0"8612708064#110"    cd /Users/jared/git/GLFullScreen    /usr/bin/touch -c /Users/jared/git/GLFullScreen/build/Debug/tzkp.app0#
+
