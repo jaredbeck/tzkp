@@ -50,6 +50,8 @@
 #import "Scene.h"
 #import "Texture.h"
 #import <OpenGL/glu.h>
+#import "Tetrahedron.h"
+#import "Cube.h"
 
 static double dtor( double degrees )
 {
@@ -125,73 +127,17 @@ static double dtor( double degrees )
 	glMatrixMode(GL_MODELVIEW);
 }
 
-// This method renders our scene.
-// We could optimize it in any of several ways, including factoring out the repeated OpenGL initialization calls and 
-// hanging onto the GLU quadric object, but the details of how it's implemented aren't important here. 
-// The main thing to note is that we've factored the drawing code out of the NSView subclass so that
-// the full-screen and non-fullscreen views share the same states for rendering 
-// (and MainController can use it when rendering in full-screen mode on pre-10.6 systems).
+/* This method renders our scene. The main thing to note is that we've 
+ factored the drawing code out of the NSView subclass so that the full-screen 
+ and non-fullscreen views share the same states for rendering (and MainController 
+ can use it when rendering in full-screen mode on pre-10.6 systems). */
 - (void)render
 {	
-	static GLfloat lightDirection[] = { -0.7071, 0.0, 0.7071, 0.0 };
-    static GLfloat radius = 0.25;
-    static GLfloat materialAmbient[4] = { 0.0, 0.0, 0.0, 0.0 };
-    static GLfloat materialDiffuse[4] = { 1.0, 1.0, 1.0, 1.0 };
-    GLUquadric *quadric = NULL;
-	
 	glEnable(GL_DEPTH_TEST);
 	glEnable(GL_CULL_FACE);
-	//glEnable(GL_FOG);
-	//glEnable(GL_LIGHTING);
-	//glEnable(GL_LIGHT0);
-	//glEnable(GL_TEXTURE_2D);
 
-    glClearColor(0.5, 0.5, 0.5, 0.5);
-    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-	
-	// Upload the texture
-	// Since we are sharing OpenGL objects between the full-screen and non-fullscreen contexts, we only need to do this once
-	/*if (!textureName) {
-		NSString *path = [[NSBundle mainBundle] pathForResource:@"Earth" ofType:@"jpg"];
-		texture = [[Texture alloc] initWithPath:path];
-		textureName = [texture textureName];
-	}
-	
-	// Set up texturing parameters
-	glBindTexture(GL_TEXTURE_2D, textureName);
-    glTexEnvf(GL_TEXTURE_ENV, GL_TEXTURE_ENV_MODE, GL_MODULATE);
-	
-	// Set up our single directional light (the Sun!)
-	lightDirection[0] = cos(dtor(sunAngle));
-	lightDirection[2] = sin(dtor(sunAngle));
-	glLightfv(GL_LIGHT0, GL_POSITION, lightDirection);
-	
-	glPushMatrix();
-	
-	// Back the camera off a bit
-	glTranslatef(0.0, 0.0, -1.5);
-	
-	// Draw the Earth!
-	quadric = gluNewQuadric();
-	if (wireframe)
-		gluQuadricDrawStyle(quadric, GLU_LINE);
-	
-	gluQuadricTexture(quadric, GL_TRUE);
-	glMaterialfv(GL_FRONT, GL_AMBIENT, materialAmbient);
-	glMaterialfv(GL_FRONT, GL_DIFFUSE, materialDiffuse);
-	glRotatef(rollAngle, 1.0, 0.0, 0.0);
-	//glRotatef(-23.45, 0.0, 0.0, 1.0); // Earth's axial tilt is 23.45 degrees from the plane of the ecliptic
-	glRotatef(animationPhase * 360.0, 0.0, 1.0, 0.0);
-	glRotatef(-90.0, 1.0, 0.0, 0.0);
-	gluSphere(quadric, radius, 48, 24);
-  
-	gluDeleteQuadric(quadric);
-	quadric = NULL;
-  
-  glPopMatrix();
-  
-	glBindTexture(GL_TEXTURE_2D, 0);
-   */
+  glClearColor(0.5, 0.5, 0.5, 0.5);
+  glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
   
   glPushMatrix();
 	
@@ -203,81 +149,19 @@ static double dtor( double degrees )
   glRotatef(animationPhase * 360.0 * 5, 0.0, 1.0, 0.0);
   //glTranslatef(0.0f, animationPhase * -10.0, 0.0f);
   
-  // Draw a pyramid
-  glBegin(GL_TRIANGLE_FAN);
-  {
-    glColor3f(1.0f,0.0f,0.0f);                	// set color to red
-    glVertex3f(  0.0f,  0.3f, 0.0f);
-    glColor3f(0.0f,1.0f,0.0f);                	// set color to green
-    glVertex3f(-0.5f, -0.5f, 0.5f);
-    glColor3f(1.0f,1.0f,0.0f);                	// set color to yellow
-    glVertex3f( 0.5f, -0.5f, 0.5f);
-    glColor3f(0.0f,0.0f,1.0f);                	// set color to blue
-    glVertex3f( 0.5f, -0.5f, -0.5f);
-    glColor3f(1.0f,1.0f,1.0f);                	// set color to white
-    glVertex3f( -0.5f, -0.5f, -0.5f);
-    glColor3f(0.0f,1.0f,0.0f);                	// set color to green
-    glVertex3f(-0.5f, -0.5f, 0.5f);
-    
-  }
-  glEnd();
+  Tetrahedron *t = [[Tetrahedron alloc] init];
+  [t render];
   
   glPushMatrix();
   
   glTranslatef(-0.5f, 0.5f, -0.5f); // center the cube over the pyramid
   
-  // Draw a cube
-  glBegin(GL_QUAD_STRIP);
-  {
-                                  glColor3f(0.0f,1.0f,0.0f); // green
-    glVertex3f( 1.0f, 1.0f, 1.0f);
-    glVertex3f( 1.0f, 0.0f, 1.0f);
-                                  glColor3f(0.0f,0.0f,1.0f); // blue
-    glVertex3f( 1.0f, 1.0f, 0.0f);
-    glVertex3f( 1.0f, 0.0f, 0.0f);
-                                  glColor3f(1.0f,1.0f,0.0f); // yellow
-    glVertex3f( 0.0f, 1.0f, 0.0f);
-    glVertex3f( 0.0f, 0.0f, 0.0f);
-                                  glColor3f(0.0f,1.0f,0.0f); // green
-    glVertex3f( 0.0f, 1.0f, 1.0f);
-    glVertex3f( 0.0f, 0.0f, 1.0f);
-                                  glColor3f(0.0f,0.0f,0.0f); // white
-    glVertex3f( 1.0f, 1.0f, 1.0f);
-    glVertex3f( 1.0f, 0.0f, 1.0f);
-  }
-  glEnd();
-  
-  // bottom of cube
-  glBegin(GL_QUADS);
-  {
-    glColor3f(1.0f,0.0f,0.0f);                	// set color to red
-    glVertex3f( 0.0f, 0.0f, 0.0f); // 5
-    glVertex3f( 1.0f, 0.0f, 0.0f); // 3
-    glVertex3f( 1.0f, 0.0f, 1.0f); // 1
-    glVertex3f( 0.0f, 0.0f, 1.0f); // 7
-  }
-  glEnd();
+  Cube *c = [[Cube alloc] init];
+  [c render];
   
   glPopMatrix(); // centering
   
   glPopMatrix(); // rotation
-  
-  
-  // Draw a square
-  glBegin(GL_QUADS);
-  {
-    glColor3f(1.0f,0.0f,0.0f);                	// set color to red
-    glVertex3f( 0.5f, -0.5f, 0.5f); // lower left front
-    glColor3f(0.0f,1.0f,0.0f);                	// set color to green
-    glVertex3f( 1.0f, -0.5f, 0.5f); // lower right front
-    glColor3f(0.0f,0.0f,1.0f);                	// set color to blue
-    glVertex3f( 1.0f, -0.0f, 0.5f); // upper right front
-    glColor3f(1.0f,1.0f,1.0f);                	// set color to white
-    glVertex3f( 0.5f, 0.0f, 0.5f); // upper left front
-  }
-  glEnd();
-  
-
   
   glPopMatrix(); // back the camera off
 }

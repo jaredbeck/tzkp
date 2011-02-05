@@ -49,7 +49,7 @@
 
 #import <Cocoa/Cocoa.h>
 
-@class Texture;
+@class Texture, Cube, Tetrahedron;
 
 @interface Scene : NSObject {
 	

@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		256AC3DA0F4B6AC300CF3369 /* MainControler.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* MainControler.m */; };
+		7FFFB3B112FDC04000A3B3BB /* Solid.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFFB3B012FDC04000A3B3BB /* Solid.m */; };
+		7FFFB3B612FDC1C400A3B3BB /* Cube.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFFB3B512FDC1C400A3B3BB /* Cube.m */; };
+		7FFFB3B912FDC20C00A3B3BB /* Hexahedron.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFFB3B812FDC20C00A3B3BB /* Hexahedron.m */; };
+		7FFFB41412FDC8F900A3B3BB /* Tetrahedron.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFFB41312FDC8F900A3B3BB /* Tetrahedron.m */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
@@ -29,6 +33,14 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		7FFFB3AF12FDC04000A3B3BB /* Solid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Solid.h; sourceTree = "<group>"; };
+		7FFFB3B012FDC04000A3B3BB /* Solid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Solid.m; sourceTree = "<group>"; };
+		7FFFB3B412FDC1C400A3B3BB /* Cube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cube.h; sourceTree = "<group>"; };
+		7FFFB3B512FDC1C400A3B3BB /* Cube.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cube.m; sourceTree = "<group>"; };
+		7FFFB3B712FDC20C00A3B3BB /* Hexahedron.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hexahedron.h; sourceTree = "<group>"; };
+		7FFFB3B812FDC20C00A3B3BB /* Hexahedron.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hexahedron.m; sourceTree = "<group>"; };
+		7FFFB41212FDC8F900A3B3BB /* Tetrahedron.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tetrahedron.h; sourceTree = "<group>"; };
+		7FFFB41312FDC8F900A3B3BB /* Tetrahedron.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tetrahedron.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* tzkp-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "tzkp-Info.plist"; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* tzkp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tzkp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF01F34B113DE4FD001D73F6 /* Texture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Texture.h; sourceTree = "<group>"; };
@@ -61,12 +73,20 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				7FFFB41212FDC8F900A3B3BB /* Tetrahedron.h */,
+				7FFFB41312FDC8F900A3B3BB /* Tetrahedron.m */,
+				7FFFB3B412FDC1C400A3B3BB /* Cube.h */,
+				7FFFB3B512FDC1C400A3B3BB /* Cube.m */,
+				7FFFB3B712FDC20C00A3B3BB /* Hexahedron.h */,
+				7FFFB3B812FDC20C00A3B3BB /* Hexahedron.m */,
 				256AC3D80F4B6AC300CF3369 /* MainController.h */,
 				256AC3D90F4B6AC300CF3369 /* MainControler.m */,
 				AFBD763F113886AE0015E685 /* MyOpenGLView.h */,
 				AFBD7640113886AE0015E685 /* MyOpenGLView.m */,
 				AFBD76841138889A0015E685 /* Scene.h */,
 				AFBD76851138889A0015E685 /* Scene.m */,
+				7FFFB3AF12FDC04000A3B3BB /* Solid.h */,
+				7FFFB3B012FDC04000A3B3BB /* Solid.m */,
 				AF01F34B113DE4FD001D73F6 /* Texture.h */,
 				AF01F34C113DE4FD001D73F6 /* Texture.m */,
 			);
@@ -170,6 +190,7 @@
 			isa = PBXProject;
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "tzkp" */;
 			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
 				English,
@@ -209,6 +230,10 @@
 				AFBD7641113886AE0015E685 /* MyOpenGLView.m in Sources */,
 				AFBD76861138889A0015E685 /* Scene.m in Sources */,
 				AF01F34D113DE4FD001D73F6 /* Texture.m in Sources */,
+				7FFFB3B112FDC04000A3B3BB /* Solid.m in Sources */,
+				7FFFB3B612FDC1C400A3B3BB /* Cube.m in Sources */,
+				7FFFB3B912FDC20C00A3B3BB /* Hexahedron.m in Sources */,
+				7FFFB41412FDC8F900A3B3BB /* Tetrahedron.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
